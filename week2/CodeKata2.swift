@@ -27,19 +27,19 @@ class TeleCoffeeHandler {
         return mORMHandler.get('bravas', 5)
     }
 
-    func getPechugitoUnit() -> myORMObject {
-        mORMHandler.checkEnoughExistences('pechugito', 1)
-        let pechugitoPrize = mORMHandler.getPrize('pechugito')
-        mWalletHandler.checkEnoughMoney(pechugitoPrize)
-        mWalletHandler.spendMoney(pechugitoPrize)
-        return mORMHandler.get('pechugito', 1)
+    func getPechuguitoUnit() -> myORMObject {
+        mORMHandler.checkEnoughExistences('pechuguito', 1)
+        let pechuguitoPrize = mORMHandler.getPrize('pechuguito')
+        mWalletHandler.checkEnoughMoney(pechuguitoPrize)
+        mWalletHandler.spendMoney(pechuguitoPrize)
+        return mORMHandler.get('pechuguito', 1)
     }
 
-    func getPechugitoPack() -> myORMObject {
-        mORMHandler.checkEnoughExistences('pechugito', 5)
-        let pechugitoPrize = mORMHandler.getPrize('pechugito')
-        mWalletHandler.checkEnoughMoney(pechugitoPrize * 5)
-        mWalletHandler.spendMoney(pechugitoPrize * 5)
-        return mORMHandler.get('pechugito', 5)
+    func getPechuguitoPack() -> myORMObject {
+        mORMHandler.checkEnoughExistences('pechuguito', 5)
+        let pechuguitoPrize = mORMHandler.getPrize('pechuguito')
+        mWalletHandler.checkEnoughMoney(pechuguitoPrize * 5)
+        mWalletHandler.spendMoney(pechuguitoPrize * 5)
+        return mORMHandler.get('pechuguito', 5)
     }
 }

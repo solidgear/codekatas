@@ -27,19 +27,19 @@ function TeleCoffeeHandler() {
         return mORMHandler.get('bravas', 5);
     }
 
-    this.getPechugitoUnit = function() {
-        mORMHandler.checkEnoughExistences('pechugito', 1);
-        var pechugitoPrize = mORMHandler.getPrize('pechugito');
-        mWalletHandler.checkEnoughMoney(pechugitoPrize);
-        mWalletHandler.spendMoney(pechugitoPrize);
-        return mORMHandler.get('pechugito', 1);
+    this.getPechuguitoUnit = function() {
+        mORMHandler.checkEnoughExistences('pechuguito', 1);
+        var pechuguitoPrize = mORMHandler.getPrize('pechuguito');
+        mWalletHandler.checkEnoughMoney(pechuguitoPrize);
+        mWalletHandler.spendMoney(pechuguitoPrize);
+        return mORMHandler.get('pechuguito', 1);
     }
 
-    this.getPechugitoPack = function() {
-        mORMHandler.checkEnoughExistences('pechugito', 5);
-        var pechugitoPrize = mORMHandler.getPrize('pechugito');
-        mWalletHandler.checkEnoughMoney(pechugitoPrize * 5);
-        mWalletHandler.spendMoney(pechugitoPrize * 5);
-        return mORMHandler.get('pechugito', 5);
+    this.getPechuguitoPack = function() {
+        mORMHandler.checkEnoughExistences('pechuguito', 5);
+        var pechuguitoPrize = mORMHandler.getPrize('pechuguito');
+        mWalletHandler.checkEnoughMoney(pechuguitoPrize * 5);
+        mWalletHandler.spendMoney(pechuguitoPrize * 5);
+        return mORMHandler.get('pechuguito', 5);
     }
 }

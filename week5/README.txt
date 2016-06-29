@@ -1,0 +1,1 @@
+The purpose of this data is to refactor the function renderSchedule included to make it more readable and scalable.

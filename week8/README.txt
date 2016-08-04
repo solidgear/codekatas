@@ -1,0 +1,1 @@
+Refactor the given code applying SOLID principles.

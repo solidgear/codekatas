@@ -11,7 +11,7 @@ The algorithm to choose the engineers follows 2 criteria:
 
 EXAMPLE:
 
-Set of engineers: 8 Android, 4 iOS, 9 Frontend, 6 Backend, 10 Android-iOS, 10 Android-iOS-Frontend-Backend
+Set of engineers: 8 Android, 4 iOS, 9 Frontend, 6 Backend, 10 Android-iOS, 8 Android-iOS-Frontend, 5 Android-iOS-Backend, 10 Android-iOS-Frontend-Backend
 Percentages: 20% Android, 25% iOS, 20% Frontend, 20% Backend
 
 That means that from a set of 60 engineers, the final selection must have:
@@ -23,10 +23,13 @@ That means that from a set of 60 engineers, the final selection must have:
 
 The best distribution with more specialized engineers (only 1 skill) is:
 
-6 Android-iOS-Frontend-Backend
-5 Android-iOS
 1 Android
 4 iOS
-6 Frontend
+9 Frontend
 6 Backend
+3 Android-iOS
+2 Android-iOS-Frontend
+5 Android-iOS-Backend
+1 Android-iOS-Frontend-Backend
+
 

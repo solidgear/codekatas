@@ -87,7 +87,7 @@ function whoAmI(request) {
         sendJson(200, {'user': user});
     } catch (error) {
         // logs the error
-        writeLog('User ' + user + ' logged in');
+        writeLog('ERROR: while getting user name: ' + error);
         // an unexpected error happened (status code sent is 500)
         sendStatus(500, 'server error');
     }

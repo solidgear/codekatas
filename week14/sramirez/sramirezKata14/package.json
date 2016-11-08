@@ -1,9 +1,0 @@
-{
-  "name": "Kata14",
-  "version": "1.0.0",
-  "main": "server/server.js",
-  "dependencies": {
-    "body-parser": "^1.15.2",
-    "express": "4.x"
-  }
-}
